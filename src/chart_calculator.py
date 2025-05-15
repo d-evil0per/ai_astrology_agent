@@ -1352,7 +1352,7 @@ def get_nakshatra(longitude):
     return NAKSHATRAS[-1][0]  # Revati if longitude is at 360°
 
 # --- Core Functions ---
-class VedicChartCalculator:
+class ChartCalculator:
     def __init__(self, ephemeris_path=EPHEMERIS_PATH, geocode_api_key=GEOCODE_API_KEY):
         swe.set_ephe_path(ephemeris_path)
         self.geocode_api_key = geocode_api_key
@@ -1606,7 +1606,7 @@ class VedicChartCalculator:
 
 # --- Example Usage ---
 if __name__ == "__main__":
-    calculator = VedicChartCalculator()
+    calculator = ChartCalculator()
     print("\nCalculating Vedic Chart for Jamshedpur, March 24, 1994, 00:40")
     chart = calculator.calculate_natal_chart(1994, 3, 24, 0, 40, "Jamshedpur, Jharkhand, India")
     print(json.dumps(chart, indent=2))
