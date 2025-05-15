@@ -35,7 +35,7 @@ st.markdown("Enter your birth details to generate your natal chart and ask quest
 st.sidebar.header("Birth Details")
 with st.sidebar.form(key="birth_input_form"):
     birth_date = st.date_input("Birth Date", value=datetime.date(1990, 1, 1))
-    birth_time = st.time_input("Birth Time (24-hour format)", value=datetime.time(12, 0))
+    birth_time = st.time_input("Birth Time (24-hour format)", value=datetime.time(12, 0),step=300)
     birth_location = st.text_input("Birth Location (e.g., City, Country or City, State, Country)", value="New York, NY, USA")
     calculate_button = st.form_submit_button(label="Calculate Chart")
 
