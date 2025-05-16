@@ -759,91 +759,305 @@ PLANET_IN_HOUSE_INTERPRETATIONS_VEDIC = {
     }
 }
 
-NAKSHATRA_INTERPRETATIONS = {
-    "Ashwini": (
-        "Moon in Ashwini Nakshatra indicates a dynamic, healing, and pioneering emotional nature. You are quick to act and inspire others, but may struggle with impulsiveness."
-    ),
-    "Bharani": (
-        "Moon in Bharani Nakshatra suggests a passionate, disciplined, and transformative emotional nature. You seek growth through challenges, but should avoid being overly intense."
-    ),
-    "Krittika": (
-        "Moon in Krittika Nakshatra reflects a sharp, ambitious, and purifying emotional nature. You strive for excellence, but may be overly critical or fiery."
-    ),
-    "Rohini": (
-        "Moon in Rohini Nakshatra indicates a sensual, nurturing, and creative emotional nature. You attract abundance and beauty, but may become attached to comforts."
-    ),
-    "Mrigashira": (
-        "Moon in Mrigashira Nakshatra suggests a curious, restless, and seeking emotional nature. You pursue knowledge and connections, but may lack emotional stability."
-    ),
-    "Ardra": (
-        "Moon in Ardra Nakshatra reflects a stormy, transformative, and intellectual emotional nature. You embrace change, but may struggle with emotional turbulence."
-    ),
-    "Punarvasu": (
-        "Moon in Punarvasu Nakshatra indicates a nurturing, adaptable, and optimistic emotional nature. You foster renewal and growth, but may avoid emotional depth."
-    ),
-    "Pushya": (
-        "Moon in Pushya Nakshatra suggests a deeply nourishing, spiritual, and protective emotional nature. You provide care and wisdom, but may feel burdened by responsibilities."
-    ),
-    "Ashlesha": (
-        "Moon in Ashlesha Nakshatra indicates a sharp, intuitive, and transformative emotional nature. You may be deeply perceptive "
-        "but should guard against manipulation or emotional intensity."
-    ),
-    "Magha": (
-        "Moon in Magha Nakshatra reflects a regal, authoritative, and ancestral emotional nature. You seek respect and legacy, but may struggle with pride."
-    ),
-    "Purva Phalguni": (
-        "Moon in Purva Phalguni Nakshatra suggests a romantic, creative, and pleasure-seeking emotional nature. You shine in love and arts, but may be overly indulgent."
-    ),
-    "Uttara Phalguni": (
-        "Moon in Uttara Phalguni Nakshatra indicates a generous, disciplined, and relationship-focused emotional nature. You foster harmony, but may prioritize duty over emotions."
-    ),
-    "Hasta": (
-        "Moon in Hasta Nakshatra reflects a skillful, precise, and resourceful emotional nature. You excel in craftsmanship, but may be overly critical or anxious."
-    ),
-    "Chitra": (
-        "Moon in Chitra Nakshatra suggests a creative, charismatic, and ambitious emotional nature. You shine in artistic or architectural pursuits, but may seek constant admiration."
-    ),
-    "Swati": (
-        "Moon in Swati Nakshatra indicates an independent, diplomatic, and adaptable emotional nature. You thrive in freedom, but may struggle with indecision."
-    ),
-    "Vishakha": (
-        "Moon in Vishakha Nakshatra reflects a determined, ambitious, and goal-oriented emotional nature. You pursue success with passion, but may be overly competitive."
-    ),
-    "Anuradha": (
-        "Moon in Anuradha Nakshatra suggests a loyal, compassionate, and socially connected emotional nature. You foster friendships, but may feel emotionally burdened."
-    ),
-    "Jyeshtha": (
-        "Moon in Jyeshtha Nakshatra indicates a protective, authoritative, and intense emotional nature. You lead with strength, but may struggle with jealousy or control."
-    ),
-    "Mula": (
-        "Moon in Mula Nakshatra reflects a deep, transformative, and truth-seeking emotional nature. You uncover hidden truths, but may face emotional upheaval."
-    ),
-    "Purva Ashadha": (
-        "Moon in Purva Ashadha Nakshatra suggests an optimistic, ambitious, and socially driven emotional nature. You pursue goals with vigor, but may be overly idealistic."
-    ),
-    "Uttara Ashadha": (
-        "Moon in Uttara Ashadha Nakshatra indicates a disciplined, responsible, and success-oriented emotional nature. You achieve through perseverance, but may suppress emotions."
-    ),
-    "Shravana": (
-        "Moon in Shravana Nakshatra reflects a perceptive, communicative, and learning-oriented emotional nature. You seek wisdom through listening, but may be overly sensitive."
-    ),
-    "Dhanishta": (
-        "Moon in Dhanishta Nakshatra suggests a dynamic, ambitious, and socially influential emotional nature. You excel in leadership, but may prioritize status over emotions."
-    ),
-    "Shatabhisha": (
-        "Moon in Shatabhisha Nakshatra indicates a mystical, independent, and healing emotional nature. You seek truth and solitude, but may feel emotionally detached."
-    ),
-    "Purva Bhadrapada": (
-        "Moon in Purva Bhadrapada Nakshatra reflects a spiritual, intense, and transformative emotional nature. You pursue higher ideals, but may struggle with inner conflict."
-    ),
-    "Uttara Bhadrapada": (
-        "Moon in Uttara Bhadrapada Nakshatra suggests a compassionate, wise, and introspective emotional nature. You foster peace, but may carry hidden emotional burdens."
-    ),
-    "Revati": (
-        "Moon in Revati Nakshatra indicates a nurturing, spiritual, and empathetic emotional nature. You guide others with compassion, but may struggle with boundaries."
-    ),
+NAKSHATRA_PLANET_INTERPRETATIONS = {
+    "Ashwini": {
+        "Sun": "Sun in Ashwini Nakshatra suggests a dynamic, pioneering, and energetic authority. You lead with initiative and inspire action but may act impulsively.",
+        "Moon": "Moon in Ashwini Nakshatra indicates a dynamic, healing, and pioneering emotional nature. You are quick to act and inspire others, but may struggle with impulsiveness.",
+        "Mercury": "Mercury in Ashwini Nakshatra suggests a quick, innovative, and energetic intellect. You communicate with enthusiasm but may rush decisions.",
+        "Venus": "Venus in Ashwini Nakshatra suggests a dynamic, energetic, and pioneering approach to love and beauty. You attract with enthusiasm but may rush relationships.",
+        "Mars": "Mars in Ashwini Nakshatra suggests a dynamic, energetic, and pioneering drive. You act with speed and courage but may be impulsive.",
+        "Jupiter": "Jupiter in Ashwini Nakshatra suggests a dynamic, optimistic, and pioneering wisdom. You inspire with enthusiasm but may rush decisions.",
+        "Saturn": "Saturn in Ashwini Nakshatra suggests a disciplined, energetic, and pioneering approach to responsibility. You work with speed but may rush tasks.",
+        "Rahu": "Rahu in Ashwini Nakshatra suggests a dynamic, ambitious, and unconventional desire for success. You chase goals with speed but may act impulsively.",
+        "Ketu": "Ketu in Ashwini Nakshatra suggests a detached, pioneering, and spiritual nature. You seek liberation through action but may act impulsively."
+    },
+    "Bharani": {
+        "Sun": "Sun in Bharani Nakshatra indicates a disciplined, intense, and transformative leadership style. You wield authority through perseverance but may seem overly forceful.",
+        "Moon": "Moon in Bharani Nakshatra suggests a passionate, disciplined, and transformative emotional nature. You seek growth through challenges, but should avoid being overly intense.",
+        "Mercury": "Mercury in Bharani Nakshatra indicates a disciplined, intense, and focused mind. You analyze deeply but may be overly serious.",
+        "Venus": "Venus in Bharani Nakshatra indicates a passionate, disciplined, and intense approach to relationships. You love deeply but may be overly possessive.",
+        "Mars": "Mars in Bharani Nakshatra indicates a disciplined, intense, and transformative energy. You pursue goals with focus but may be overly aggressive.",
+        "Jupiter": "Jupiter in Bharani Nakshatra indicates a disciplined, intense, and transformative wisdom. You guide through perseverance but may be overly serious.",
+        "Saturn": "Saturn in Bharani Nakshatra indicates a strict, intense, and transformative approach to duty. You persevere through challenges but may be overly rigid.",
+        "Rahu": "Rahu in Bharani Nakshatra indicates an intense, disciplined, and transformative desire. You pursue ambitions with focus but may be obsessive.",
+        "Ketu": "Ketu in Bharani Nakshatra indicates a detached, intense, and transformative nature. You seek liberation through discipline but may feel restricted."
+    },
+    "Krittika": {
+        "Sun": "Sun in Krittika Nakshatra reflects a sharp, ambitious, and purifying authority. You lead with clarity and precision but may be overly critical.",
+        "Moon": "Moon in Krittika Nakshatra reflects a sharp, ambitious, and purifying emotional nature. You strive for excellence, but may be overly critical or fiery.",
+        "Mercury": "Mercury in Krittika Nakshatra reflects a sharp, precise, and critical intellect. You excel in detailed work but may be overly judgmental.",
+        "Venus": "Venus in Krittika Nakshatra reflects a sharp, ambitious, and purifying approach to beauty. You create with precision but may be overly critical in love.",
+        "Mars": "Mars in Krittika Nakshatra reflects a sharp, ambitious, and purifying drive. You act with precision but may be overly critical.",
+        "Jupiter": "Jupiter in Krittika Nakshatra reflects a sharp, ambitious, and purifying wisdom. You teach with clarity but may be overly critical.",
+        "Saturn": "Saturn in Krittika Nakshatra reflects a sharp, ambitious, and purifying approach to responsibility. You work with precision but may be overly critical.",
+        "Rahu": "Rahu in Krittika Nakshatra reflects a sharp, ambitious, and purifying desire. You chase goals with precision but may be overly critical.",
+        "Ketu": "Ketu in Krittika Nakshatra reflects a detached, purifying, and spiritually sharp nature. You seek inner clarity and liberation but may struggle with restlessness or criticism."
+    },
+    "Rohini": {
+        "Sun": "Sun in Rohini Nakshatra suggests a charismatic, creative, and nurturing leadership style. You attract followers with charm but may focus too much on appearances.",
+        "Moon": "Moon in Rohini Nakshatra indicates a sensual, nurturing, and creative emotional nature. You attract abundance and beauty, but may become attached to comforts.",
+        "Mercury": "Mercury in Rohini Nakshatra suggests a creative, charming, and persuasive communication style. You attract through words but may focus on aesthetics.",
+        "Venus": "Venus in Rohini Nakshatra suggests a sensual, nurturing, and creative approach to love and art. You attract abundance but may cling to comforts.",
+        "Mars": "Mars in Rohini Nakshatra suggests a sensual, persistent, and creative energy. You pursue desires with charm but may cling to comforts.",
+        "Jupiter": "Jupiter in Rohini Nakshatra suggests a nurturing, creative, and abundant wisdom. You inspire growth but may focus on material comforts.",
+        "Saturn": "Saturn in Rohini Nakshatra suggests a patient, nurturing, and persistent approach to duty. You build steadily but may cling to comforts.",
+        "Rahu": "Rahu in Rohini Nakshatra suggests a sensual, persistent, and materialistic desire. You chase abundance but may cling to comforts.",
+        "Ketu": "Ketu in Rohini Nakshatra suggests a detached, nurturing, and introspective nature. You seek liberation through simplicity but may resist comforts."
+    },
+    "Mrigashira": {
+        "Sun": "Sun in Mrigashira Nakshatra indicates a curious, communicative, and restless authority. You lead through exploration but may struggle with consistency.",
+        "Moon": "Moon in Mrigashira Nakshatra suggests a curious, restless, and seeking emotional nature. You pursue knowledge and connections, but may lack emotional stability.",
+        "Mercury": "Mercury in Mrigashira Nakshatra indicates a curious, restless, and exploratory intellect. You seek knowledge but may lack focus.",
+        "Venus": "Venus in Mrigashira Nakshatra indicates a curious, restless, and seeking approach to relationships. You chase connections but may lack stability.",
+        "Mars": "Mars in Mrigashira Nakshatra indicates a curious, restless, and exploratory drive. You chase goals but may lack consistency.",
+        "Jupiter": "Jupiter in Mrigashira Nakshatra indicates a curious, restless, and exploratory wisdom. You seek knowledge but may lack focus.",
+        "Saturn": "Saturn in Mrigashira Nakshatra indicates a curious, restless, and disciplined approach to responsibility. You seek structure but may lack focus.",
+        "Rahu": "Rahu in Mrigashira Nakshatra indicates a curious, restless, and exploratory desire. You chase knowledge but may lack focus.",
+        "Ketu": "Ketu in Mrigashira Nakshatra indicates a detached, restless, and exploratory nature. You seek spiritual knowledge but may lack focus."
+    },
+    "Ardra": {
+        "Sun": "Sun in Ardra Nakshatra reflects a transformative, intellectual, and intense leadership style. You drive change but may face inner turmoil.",
+        "Moon": "Moon in Ardra Nakshatra reflects a stormy, transformative, and intellectual emotional nature. You embrace change, but may struggle with emotional turbulence.",
+        "Mercury": "Mercury in Ardra Nakshatra reflects a transformative, intellectual, and intense mind. You innovate through change but may face mental turbulence.",
+        "Venus": "Venus in Ardra Nakshatra reflects a transformative, intellectual, and intense approach to love. You embrace change in relationships but may face emotional storms.",
+        "Mars": "Mars in Ardra Nakshatra reflects a transformative, intense, and intellectual energy. You drive change but may face inner conflict.",
+        "Jupiter": "Jupiter in Ardra Nakshatra reflects a transformative, intellectual, and intense wisdom. You guide through change but may face inner turmoil.",
+        "Saturn": "Saturn in Ardra Nakshatra reflects a transformative, intense, and intellectual approach to duty. You work through change but may face inner turmoil.",
+        "Rahu": "Rahu in Ardra Nakshatra reflects a transformative, intense, and intellectual desire. You chase change but may face inner turmoil.",
+        "Ketu": "Ketu in Ardra Nakshatra reflects a detached, transformative, and intellectual nature. You seek liberation through change but may face inner turmoil."
+    },
+    "Punarvasu": {
+        "Sun": "Sun in Punarvasu Nakshatra suggests an optimistic, adaptable, and renewing authority. You inspire growth but may avoid confrontation.",
+        "Moon": "Moon in Punarvasu Nakshatra indicates a nurturing, adaptable, and optimistic emotional nature. You foster renewal and growth, but may avoid emotional depth.",
+        "Mercury": "Mercury in Punarvasu Nakshatra suggests an adaptable, optimistic, and versatile communication style. You inspire renewal but may avoid depth.",
+        "Venus": "Venus in Punarvasu Nakshatra suggests an adaptable, optimistic, and renewing approach to beauty. You foster harmony but may avoid emotional depth.",
+        "Mars": "Mars in Punarvasu Nakshatra suggests an adaptable, optimistic, and renewing drive. You pursue growth but may avoid confrontation.",
+        "Jupiter": "Jupiter in Punarvasu Nakshatra suggests an adaptable, optimistic, and renewing wisdom. You inspire renewal but may avoid depth.",
+        "Saturn": "Saturn in Punarvasu Nakshatra suggests an adaptable, optimistic, and renewing approach to responsibility. You build steadily but may avoid depth.",
+        "Rahu": "Rahu in Punarvasu Nakshatra suggests an adaptable, optimistic, and renewing desire. You chase growth but may avoid depth.",
+        "Ketu": "Ketu in Punarvasu Nakshatra suggests a detached, optimistic, and renewing nature. You seek liberation through adaptability but may avoid depth."
+    },
+    "Pushya": {
+        "Sun": "Sun in Pushya Nakshatra indicates a nurturing, wise, and protective leadership style. You guide with care but may feel burdened by duties.",
+        "Moon": "Moon in Pushya Nakshatra suggests a deeply nourishing, spiritual, and protective emotional nature. You provide care and wisdom, but may feel burdened by responsibilities.",
+        "Mercury": "Mercury in Pushya Nakshatra indicates a nurturing, wise, and protective intellect. You teach with care but may feel burdened by responsibilities.",
+        "Venus": "Venus in Pushya Nakshatra indicates a nurturing, spiritual, and protective approach to love. You care deeply but may feel burdened by responsibilities.",
+        "Mars": "Mars in Pushya Nakshatra indicates a nurturing, protective, and spiritual energy. You act with care but may feel burdened by duties.",
+        "Jupiter": "Jupiter in Pushya Nakshatra indicates a nurturing, spiritual, and protective wisdom. You guide with care but may feel burdened by responsibilities.",
+        "Saturn": "Saturn in Pushya Nakshatra indicates a nurturing, spiritual, and protective approach to duty. You work with care but may feel burdened.",
+        "Rahu": "Rahu in Pushya Nakshatra indicates a nurturing, spiritual, and protective desire. You chase ideals but may feel burdened.",
+        "Ketu": "Ketu in Pushya Nakshatra indicates a detached, spiritual, and protective nature. You seek liberation through care but may feel burdened."
+    },
+    "Ashlesha": {
+        "Sun": "Sun in Ashlesha Nakshatra reflects a perceptive, strategic, and intense authority. You lead with intuition but should avoid manipulative tendencies.",
+        "Moon": "Moon in Ashlesha Nakshatra indicates a sharp, intuitive, and transformative emotional nature. You may be deeply perceptive but should guard against manipulation or emotional intensity.",
+        "Mercury": "Mercury in Ashlesha Nakshatra reflects a perceptive, strategic, and intuitive mind. You communicate with insight but should avoid manipulation.",
+        "Venus": "Venus in Ashlesha Nakshatra reflects a perceptive, intuitive, and intense approach to relationships. You love with depth but should avoid manipulation.",
+        "Mars": "Mars in Ashlesha Nakshatra reflects a perceptive, strategic, and intense drive. You act with intuition but should avoid manipulation.",
+        "Jupiter": "Jupiter in Ashlesha Nakshatra reflects a perceptive, intuitive, and transformative wisdom. You teach with insight but should avoid manipulation.",
+        "Saturn": "Saturn in Ashlesha Nakshatra reflects a perceptive, strategic, and intense approach to responsibility. You work with insight but should avoid manipulation.",
+        "Rahu": "Rahu in Ashlesha Nakshatra reflects a perceptive, strategic, and intense desire. You chase goals with insight but may be manipulative.",
+        "Ketu": "Ketu in Ashlesha Nakshatra reflects a detached, intuitive, and transformative nature. You seek liberation through insight but may face intensity."
+    },
+    "Magha": {
+        "Sun": "Sun in Magha Nakshatra suggests a regal, authoritative, and legacy-driven leadership style. You command respect but may struggle with pride.",
+        "Moon": "Moon in Magha Nakshatra reflects a regal, authoritative, and ancestral emotional nature. You seek respect and legacy, but may struggle with pride.",
+        "Mercury": "Mercury in Magha Nakshatra suggests a regal, authoritative, and legacy-driven intellect. You speak with gravitas but may be prideful.",
+        "Venus": "Venus in Magha Nakshatra suggests a regal, authoritative, and legacy-driven approach to beauty. You attract with gravitas but may be prideful.",
+        "Mars": "Mars in Magha Nakshatra suggests a regal, authoritative, and legacy-driven energy. You pursue goals with gravitas but may be prideful.",
+        "Jupiter": "Jupiter in Magha Nakshatra suggests a regal, authoritative, and legacy-driven wisdom. You inspire with gravitas but may be prideful.",
+        "Saturn": "Saturn in Magha Nakshatra suggests a regal, authoritative, and legacy-driven approach to duty. You work with gravitas but may be prideful.",
+        "Rahu": "Rahu in Magha Nakshatra suggests a regal, authoritative, and legacy-driven desire. You chase status but may be prideful.",
+        "Ketu": "Ketu in Magha Nakshatra suggests a detached, authoritative, and legacy-driven nature. You seek liberation through humility but may struggle with pride."
+    },
+    "Purva Phalguni": {
+        "Sun": "Sun in Purva Phalguni Nakshatra indicates a charismatic, creative, and pleasure-seeking authority. You shine in social settings but may prioritize indulgence.",
+        "Moon": "Moon in Purva Phalguni Nakshatra suggests a romantic, creative, and pleasure-seeking emotional nature. You shine in love and arts, but may be overly indulgent.",
+        "Mercury": "Mercury in Purva Phalguni Nakshatra indicates a charismatic, creative, and pleasure-seeking communication style. You shine in social settings but may be indulgent.",
+        "Venus": "Venus in Purva Phalguni Nakshatra indicates a romantic, creative, and pleasure-seeking approach to love. You shine in relationships but may be indulgent.",
+        "Mars": "Mars in Purva Phalguni Nakshatra indicates a passionate, creative, and pleasure-seeking drive. You act with charisma but may be indulgent.",
+        "Jupiter": "Jupiter in Purva Phalguni Nakshatra indicates a charismatic, creative, and pleasure-seeking wisdom. You guide through joy but may be indulgent.",
+        "Saturn": "Saturn in Purva Phalguni Nakshatra indicates a disciplined, creative, and pleasure-seeking approach to responsibility. You work with charisma but may be indulgent.",
+        "Rahu": "Rahu in Purva Phalguni Nakshatra indicates a charismatic, pleasure-seeking, and creative desire. You chase indulgence but may be excessive.",
+        "Ketu": "Ketu in Purva Phalguni Nakshatra indicates a detached, creative, and pleasure-seeking nature. You seek liberation through simplicity but may resist indulgence."
+    },
+    "Uttara Phalguni": {
+        "Sun": "Sun in Uttara Phalguni Nakshatra reflects a disciplined, generous, and relationship-focused leadership style. You foster harmony but may prioritize duty over self.",
+        "Moon": "Moon in Uttara Phalguni Nakshatra indicates a generous, disciplined, and relationship-focused emotional nature. You foster harmony, but may prioritize duty over emotions.",
+        "Mercury": "Mercury in Uttara Phalguni Nakshatra reflects a disciplined, generous, and relationship-focused intellect. You communicate harmoniously but may prioritize duty.",
+        "Venus": "Venus in Uttara Phalguni Nakshatra reflects a disciplined, generous, and relationship-focused approach to beauty. You create harmony but may prioritize duty.",
+        "Mars": "Mars in Uttara Phalguni Nakshatra reflects a disciplined, generous, and relationship-focused energy. You pursue harmony but may prioritize duty.",
+        "Jupiter": "Jupiter in Uttara Phalguni Nakshatra reflects a disciplined, generous, and relationship-focused wisdom. You inspire harmony but may prioritize duty.",
+        "Saturn": "Saturn in Uttara Phalguni Nakshatra reflects a generous, disciplined, and relationship-focused approach to duty. You work for harmony but may prioritize duty.",
+        "Rahu": "Rahu in Uttara Phalguni Nakshatra reflects a disciplined, generous, and relationship-focused desire. You chase harmony but may prioritize ambition.",
+        "Ketu": "Ketu in Uttara Phalguni Nakshatra reflects a detached, disciplined, and relationship-focused nature. You seek liberation through duty but may prioritize detachment."
+    },
+    "Hasta": {
+        "Sun": "Sun in Hasta Nakshatra suggests a skillful, precise, and resourceful authority. You lead with craftsmanship but may be overly critical.",
+        "Moon": "Moon in Hasta Nakshatra reflects a skillful, precise, and resourceful emotional nature. You excel in craftsmanship, but may be overly critical or anxious.",
+        "Mercury": "Mercury in Hasta Nakshatra suggests a skillful, precise, and resourceful mind. You excel in technical work but may be overly critical.",
+        "Venus": "Venus in Hasta Nakshatra suggests a skillful, precise, and resourceful approach to art and love. You create with finesse but may be overly critical.",
+        "Mars": "Mars in Hasta Nakshatra suggests a skillful, precise, and resourceful drive. You act with finesse but may be overly critical.",
+        "Jupiter": "Jupiter in Hasta Nakshatra suggests a skillful, precise, and resourceful wisdom. You teach with finesse but may be overly critical.",
+        "Saturn": "Saturn in Hasta Nakshatra suggests a skillful, precise, and resourceful approach to responsibility. You work with finesse but may be overly critical.",
+        "Rahu": "Rahu in Hasta Nakshatra suggests a skillful, precise, and resourceful desire. You chase goals with finesse but may be overly critical.",
+        "Ketu": "Ketu in Hasta Nakshatra suggests a detached, precise, and resourceful nature. You seek liberation through skill but may be overly critical."
+    },
+    "Chitra": {
+        "Sun": "Sun in Chitra Nakshatra indicates a creative, ambitious, and charismatic leadership style. You shine in artistic pursuits but may seek constant recognition.",
+        "Moon": "Moon in Chitra Nakshatra suggests a creative, charismatic, and ambitious emotional nature. You shine in artistic or architectural pursuits, but may seek constant admiration.",
+        "Mercury": "Mercury in Chitra Nakshatra indicates a creative, ambitious, and charismatic intellect. You shine in artistic communication but may seek recognition.",
+        "Venus": "Venus in Chitra Nakshatra indicates a creative, charismatic, and ambitious approach to beauty. You shine in artistic pursuits but may seek admiration.",
+        "Mars": "Mars in Chitra Nakshatra indicates a creative, ambitious, and charismatic energy. You pursue goals with flair but may seek recognition.",
+        "Jupiter": "Jupiter in Chitra Nakshatra indicates a creative, ambitious, and charismatic wisdom. You inspire through art but may seek recognition.",
+        "Saturn": "Saturn in Chitra Nakshatra indicates a creative, ambitious, and disciplined approach to duty. You work with flair but may seek recognition.",
+        "Rahu": "Rahu in Chitra Nakshatra indicates a creative, ambitious, and charismatic desire. You chase recognition but may seek constant admiration.",
+        "Ketu": "Ketu in Chitra Nakshatra indicates a detached, creative, and ambitious nature. You seek liberation through art but may resist recognition."
+    },
+    "Swati": {
+        "Sun": "Sun in Swati Nakshatra reflects an independent, diplomatic, and adaptable authority. You lead with balance but may struggle with indecision.",
+        "Moon": "Moon in Swati Nakshatra indicates an independent, diplomatic, and adaptable emotional nature. You thrive in freedom, but may struggle with indecision.",
+        "Mercury": "Mercury in Swati Nakshatra reflects an independent, diplomatic, and adaptable mind. You communicate with balance but may struggle with indecision.",
+        "Venus": "Venus in Swati Nakshatra reflects an independent, diplomatic, and adaptable approach to relationships. You love with balance but may struggle with indecision.",
+        "Mars": "Mars in Swati Nakshatra reflects an independent, diplomatic, and adaptable drive. You act with balance but may struggle with indecision.",
+        "Jupiter": "Jupiter in Swati Nakshatra reflects an independent, diplomatic, and adaptable wisdom. You guide with balance but may struggle with indecision.",
+        "Saturn": "Saturn in Swati Nakshatra reflects an independent, diplomatic, and adaptable approach to responsibility. You work with balance but may struggle with indecision.",
+        "Rahu": "Rahu in Swati Nakshatra reflects an independent, diplomatic, and adaptable desire. You chase freedom but may struggle with indecision.",
+        "Ketu": "Ketu in Swati Nakshatra reflects a detached, independent, and adaptable nature. You seek liberation through freedom but may struggle with indecision."
+    },
+    "Vishakha": {
+        "Sun": "Sun in Vishakha Nakshatra suggests a determined, ambitious, and goal-oriented leadership style. You pursue success with passion but may be overly competitive.",
+        "Moon": "Moon in Vishakha Nakshatra reflects a determined, ambitious, Equally weighted, and goal-oriented emotional nature. You pursue success with passion, but may be overly competitive.",
+        "Mercury": "Mercury in Vishakha Nakshatra suggests a determined, ambitious, and goal-oriented intellect. You analyze with passion but may be overly competitive.",
+        "Venus": "Venus in Vishakha Nakshatra suggests a determined, ambitious, and passionate approach to love. You pursue relationships with zeal but may be overly competitive.",
+        "Mars": "Mars in Vishakha Nakshatra suggests a determined, ambitious, and passionate energy. You pursue goals with zeal but may be overly competitive.",
+        "Jupiter": "Jupiter in Vishakha Nakshatra reflects an ambitious, optimistic, and goal-oriented wisdom. You inspire through determined growth but may become overly focused on success.",
+        "Saturn": "Saturn in Vishakha Nakshatra suggests a determined, ambitious, and disciplined approach to duty. You work with zeal but may be overly competitive.",
+        "Rahu": "Rahu in Vishakha Nakshatra indicates an intense, ambitious, and unconventional desire for success. You chase goals with passion but may face obsession or ethical dilemmas.",
+        "Ketu": "Ketu in Vishakha Nakshatra suggests a detached, ambitious, and goal-oriented nature. You seek liberation through detachment but may resist competition."
+    },
+    "Anuradha": {
+        "Sun": "Sun in Anuradha Nakshatra indicates a loyal, compassionate, and socially connected authority. You lead through relationships but may feel emotionally burdened.",
+        "Moon": "Moon in Anuradha Nakshatra suggests a loyal, compassionate, and socially connected emotional nature. You foster friendships, but may feel emotionally burdened.",
+        "Mercury": "Mercury in Anuradha Nakshatra indicates a loyal, compassionate, and socially connected communication style. You build relationships but may feel burdened.",
+        "Venus": "Venus in Anuradha Nakshatra indicates a loyal, compassionate, and socially connected approach to love. You build strong bonds but may feel emotionally burdened.",
+        "Mars": "Mars in Anuradha Nakshatra indicates a loyal, compassionate, and socially connected drive. You act for relationships but may feel burdened.",
+        "Jupiter": "Jupiter in Anuradha Nakshatra indicates a loyal, compassionate, and socially connected wisdom. You guide through relationships but may feel burdened.",
+        "Saturn": "Saturn in Anuradha Nakshatra indicates a loyal, compassionate, and socially connected approach to responsibility. You work for relationships but may feel burdened.",
+        "Rahu": "Rahu in Anuradha Nakshatra indicates a loyal, compassionate, and socially connected desire. You chase relationships but may feel burdened.",
+        "Ketu": "Ketu in Anuradha Nakshatra indicates a detached, compassionate, and socially connected nature. You seek liberation through relationships but may feel burdened."
+    },
+    "Jyeshtha": {
+        "Sun": "Sun in Jyeshtha Nakshatra reflects a protective, authoritative, and intense leadership style. You command with strength but may struggle with control.",
+        "Moon": "Moon in Jyeshtha Nakshatra indicates a protective, authoritative, and intense emotional nature. You lead with strength, but may struggle with jealousy or control.",
+        "Mercury": "Mercury in Jyeshtha Nakshatra reflects a protective, authoritative, and intense intellect. You speak with strength but may struggle with control.",
+        "Venus": "Venus in Jyeshtha Nakshatra reflects a protective, authoritative, and intense approach to relationships. You love with strength but may struggle with control.",
+        "Mars": "Mars in Jyeshtha Nakshatra reflects a protective, authoritative, and intense energy. You act with strength but may struggle with control.",
+        "Jupiter": "Jupiter in Jyeshtha Nakshatra reflects a protective, authoritative, and intense wisdom. You inspire with strength but may struggle with control.",
+        "Saturn": "Saturn in Jyeshtha Nakshatra reflects a protective, authoritative, and intense approach to duty. You work with strength but may struggle with control.",
+        "Rahu": "Rahu in Jyeshtha Nakshatra reflects a protective, authoritative, and intense desire. You chase power but may struggle with control.",
+        "Ketu": "Ketu in Jyeshtha Nakshatra reflects a detached, authoritative, and intense nature. You seek liberation through humility but may struggle with control."
+    },
+    "Mula": {
+        "Sun": "Sun in Mula Nakshatra suggests a deep, transformative, and truth-seeking authority. You lead with conviction but may face upheaval.",
+        "Moon": "Moon in Mula Nakshatra reflects a deep, transformative, and truth-seeking emotional nature. You uncover hidden truths, but may face emotional upheaval.",
+        "Mercury": "Mercury in Mula Nakshatra suggests a deep, transformative, and truth-seeking mind. You uncover insights but may face mental upheaval.",
+        "Venus": "Venus in Mula Nakshatra suggests a deep, transformative, and truth-seeking approach to beauty. You uncover depth in love but may face upheaval.",
+        "Mars": "Mars in Mula Nakshatra suggests a deep, transformative, and truth-seeking drive. You pursue truth but may face upheaval.",
+        "Jupiter": "Jupiter in Mula Nakshatra suggests a deep, transformative, and truth-seeking wisdom. You guide toward truth but may face upheaval.",
+        "Saturn": "Saturn in Mula Nakshatra suggests a deep, transformative, and truth-seeking approach to responsibility. You work toward truth but may face upheaval.",
+        "Rahu": "Rahu in Mula Nakshatra suggests a deep, transformative, and truth-seeking desire. You chase truth but may face upheaval.",
+        "Ketu": "Ketu in Mula Nakshatra suggests a detached, transformative, and truth-seeking nature. You seek liberation through truth but may face upheaval."
+    },
+    "Purva Ashadha": {
+        "Sun": "Sun in Purva Ashadha Nakshatra indicates an optimistic, ambitious, and socially driven leadership style. You inspire progress but may be overly idealistic.",
+        "Moon": "Moon in Purva Ashadha Nakshatra suggests an optimistic, ambitious, and socially driven emotional nature. You pursue goals with vigor, but may be overly idealistic.",
+        "Mercury": "Mercury in Purva Ashadha Nakshatra indicates an optimistic, ambitious, and socially driven intellect. You communicate progress but may be overly idealistic.",
+        "Venus": "Venus in Purva Ashadha Nakshatra indicates an optimistic, ambitious, and socially driven approach to relationships. You love with vigor but may be overly idealistic.",
+        "Mars": "Mars in Purva Ashadha Nakshatra indicates an optimistic, ambitious, and socially driven energy. You act with vigor but may be overly idealistic.",
+        "Jupiter": "Jupiter in Purva Ashadha Nakshatra indicates an optimistic, ambitious, and socially driven wisdom. You inspire progress but may be overly idealistic.",
+        "Saturn": "Saturn in Purva Ashadha Nakshatra indicates an optimistic, ambitious, and socially driven approach to duty. You work with vigor but may be overly idealistic.",
+        "Rahu": "Rahu in Purva Ashadha Nakshatra indicates an optimistic, ambitious, and socially driven desire. You chase progress but may be overly idealistic.",
+        "Ketu": "Ketu in Purva Ashadha Nakshatra indicates a detached, optimistic, and socially driven nature. You seek liberation through simplicity but may resist idealism."
+    },
+    "Uttara Ashadha": {
+        "Sun": "Sun in Uttara Ashadha Nakshatra reflects a disciplined, responsible, and success-oriented authority. You achieve through perseverance but may suppress personal desires.",
+        "Moon": "Moon in Uttara Ashadha Nakshatra indicates a disciplined, responsible, and success-oriented emotional nature. You achieve through perseverance, but may suppress emotions.",
+        "Mercury": "Mercury in Uttara Ashadha Nakshatra reflects a disciplined, responsible, and success-oriented mind. You analyze methodically but may suppress creativity.",
+        "Venus": "Venus in Uttara Ashadha Nakshatra reflects a disciplined, responsible, and success-oriented approach to beauty. You create with perseverance but may suppress desires.",
+        "Mars": "Mars in Uttara Ashadha Nakshatra reflects a disciplined, responsible, and success-oriented drive. You pursue goals with perseverance but may suppress desires.",
+        "Jupiter": "Jupiter in Uttara Ashadha Nakshatra reflects a disciplined, responsible, and success-oriented wisdom. You guide with perseverance but may suppress creativity.",
+        "Saturn": "Saturn in Uttara Ashadha Nakshatra reflects a disciplined, responsible, and success-oriented approach to duty. You work with perseverance but may suppress desires.",
+        "Rahu": "Rahu in Uttara Ashadha Nakshatra reflects a disciplined, responsible, and success-oriented desire. You chase goals with perseverance but may suppress ethics.",
+        "Ketu": "Ketu in Uttara Ashadha Nakshatra reflects a detached, disciplined, and success-oriented nature. You seek liberation through duty but may suppress desires."
+    },
+    "Shravana": {
+        "Sun": "Sun in Shravana Nakshatra suggests a perceptive, communicative, and learning-oriented leadership style. You lead through wisdom but may be overly sensitive.",
+        "Moon": "Moon in Shravana Nakshatra reflects a perceptive, communicative, and learning-oriented emotional nature. You seek wisdom through listening, but may be overly sensitive.",
+        "Mercury": "Mercury in Shravana Nakshatra suggests a perceptive, communicative, and learning-oriented intellect. You learn through listening but may be overly sensitive.",
+        "Venus": "Venus in Shravana Nakshatra suggests a perceptive, communicative, and learning-oriented approach to love. You attract through listening but may be overly sensitive.",
+        "Mars": "Mars in Shravana Nakshatra suggests a perceptive, communicative, and learning-oriented energy. You act with wisdom but may be overly sensitive.",
+        "Jupiter": "Jupiter in Shravana Nakshatra suggests a perceptive, communicative, and learning-oriented wisdom. You inspire through listening but may be overly sensitive.",
+        "Saturn": "Saturn in Shravana Nakshatra suggests a perceptive, communicative, and learning-oriented approach to responsibility. You work with wisdom but may be overly sensitive.",
+        "Rahu": "Rahu in Shravana Nakshatra suggests a perceptive, communicative, and learning-oriented desire. You chase wisdom but may be overly sensitive.",
+        "Ketu": "Ketu in Shravana Nakshatra suggests a detached, perceptive, and learning-oriented nature. You seek liberation through wisdom but may be overly sensitive."
+    },
+    "Dhanishta": {
+        "Sun": "Sun in Dhanishta Nakshatra indicates a dynamic, ambitious, and socially influential authority. You lead with charisma but may prioritize status.",
+        "Moon": "Moon in Dhanishta Nakshatra suggests a dynamic, ambitious, and socially influential emotional nature. You excel in leadership, but may prioritize status over emotions.",
+        "Mercury": "Mercury in Dhanishta Nakshatra indicates a dynamic, ambitious, and socially influential communication style. You excel in leadership but may prioritize status.",
+        "Venus": "Venus in Dhanishta Nakshatra indicates a dynamic, ambitious, and socially influential approach to relationships. You shine in love but may prioritize status.",
+        "Mars": "Mars in Dhanishta Nakshatra indicates a dynamic, ambitious, and socially influential drive. You pursue goals with charisma but may prioritize status.",
+        "Jupiter": "Jupiter in Dhanishta Nakshatra indicates a dynamic, ambitious, and socially influential wisdom. You guide with charisma but may prioritize status.",
+        "Saturn": "Saturn in Dhanishta Nakshatra indicates a dynamic, ambitious, and socially influential approach to duty. You work with charisma but may prioritize status.",
+        "Rahu": "Rahu in Dhanishta Nakshatra indicates a dynamic, ambitious, and socially influential desire. You chase status but may prioritize ambition.",
+        "Ketu": "Ketu in Dhanishta Nakshatra indicates a detached, ambitious, and socially influential nature. You seek liberation through humility but may resist status."
+    },
+    "Shatabhisha": {
+        "Sun": "Sun in Shatabhisha Nakshatra reflects a mystical, independent, and healing leadership style. You lead with insight but may appear detached.",
+        "Moon": "Moon in Shatabhisha Nakshatra indicates a mystical, independent, and healing emotional nature. You seek truth and solitude, but may feel emotionally detached.",
+        "Mercury": "Mercury in Shatabhisha Nakshatra reflects a mystical, analytical, and innovative intellect. You excel in unconventional thinking but may appear detached.",
+        "Venus": "Venus in Shatabhisha Nakshatra reflects a mystical, independent, and healing approach to beauty. You create with insight but may seem detached.",
+        "Mars": "Mars in Shatabhisha Nakshatra indicates a focused, independent, and transformative drive. You pursue goals with intensity and innovation but may act impulsively in isolation.",
+        "Jupiter": "Jupiter in Shatabhisha Nakshatra reflects a mystical, independent, and healing wisdom. You inspire with insight but may seem detached.",
+        "Saturn": "Saturn in Shatabhisha Nakshatra suggests a disciplined, introspective, and healing approach to responsibility. You work diligently toward truth but may feel isolated.",
+        "Rahu": "Rahu in Shatabhisha Nakshatra reflects a mystical, independent, and healing desire. You chase truth but may seem detached.",
+        "Ketu": "Ketu in Shatabhisha Nakshatra reflects a detached, mystical, and healing nature. You seek liberation through truth but may seem detached."
+    },
+    "Purva Bhadrapada": {
+        "Sun": "Sun in Purva Bhadrapada Nakshatra suggests a spiritual, intense, and transformative authority. You lead with higher ideals but may face inner conflict.",
+        "Moon": "Moon in Purva Bhadrapada Nakshatra reflects a spiritual, intense, and transformative emotional nature. You pursue higher ideals, but may struggle with inner conflict.",
+        "Mercury": "Mercury in Purva Bhadrapada Nakshatra suggests a spiritual, intense, and transformative mind. You analyze higher ideals but may face inner conflict.",
+        "Venus": "Venus in Purva Bhadrapada Nakshatra suggests a spiritual, intense, and transformative approach to love. You pursue higher ideals but may face inner conflict.",
+        "Mars": "Mars in Purva Bhadrapada Nakshatra suggests a spiritual, intense, and transformative energy. You pursue higher ideals but may face inner conflict.",
+        "Jupiter": "Jupiter in Purva Bhadrapada Nakshatra suggests a spiritual, intense, and transformative wisdom. You guide toward higher ideals but may face inner conflict.",
+        "Saturn": "Saturn in Purva Bhadrapada Nakshatra suggests a spiritual, intense, and transformative approach to duty. You work for higher ideals but may face inner conflict.",
+        "Rahu": "Rahu in Purva Bhadrapada Nakshatra suggests a spiritual, intense, and transformative desire. You chase higher ideals but may face inner conflict.",
+        "Ketu": "Ketu in Purva Bhadrapada Nakshatra suggests a detached, spiritual, and transformative nature. You seek liberation through higher ideals but may face inner conflict."
+    },
+    "Uttara Bhadrapada": {
+        "Sun": "Sun in Uttara Bhadrapada Nakshatra suggests a wise, disciplined, and spiritually inclined authority. You lead with compassion and depth but may suppress personal ego for higher goals.",
+        "Moon": "Moon in Uttara Bhadrapada Nakshatra suggests a compassionate, wise, and introspective emotional nature. You foster peace, but may carry hidden emotional burdens.",
+        "Mercury": "Mercury in Uttara Bhadrapada Nakshatra indicates a wise, disciplined, and introspective intellect. You communicate with depth but may suppress expression.",
+        "Venus": "Venus in Uttara Bhadrapada Nakshatra indicates a wise, disciplined, and introspective approach to relationships. You love with depth but may suppress emotions.",
+        "Mars": "Mars in Uttara Bhadrapada Nakshatra indicates a wise, disciplined, and introspective drive. You act with depth but may suppress impulses.",
+        "Jupiter": "Jupiter in Uttara Bhadrapada Nakshatra indicates a wise, disciplined, and introspective wisdom. You inspire with depth but may suppress expression.",
+        "Saturn": "Saturn in Uttara Bhadrapada Nakshatra indicates a wise, disciplined, and introspective approach to responsibility. You work with depth but may suppress emotions.",
+        "Rahu": "Rahu in Uttara Bhadrapada Nakshatra indicates a wise, disciplined, and introspective desire. You chase depth but may suppress ethics.",
+        "Ketu": "Ketu in Uttara Bhadrapada Nakshatra indicates a detached, wise, and introspective nature. You seek liberation through depth but may suppress emotions."
+    },
+    "Revati": {
+        "Sun": "Sun in Revati Nakshatra indicates a compassionate, spiritual, and guiding leadership style. You inspire with empathy but may struggle with boundaries.",
+        "Moon": "Moon in Revati Nakshatra indicates a nurturing, spiritual, and empathetic emotional nature. You guide others with compassion, but may struggle with boundaries.",
+        "Mercury": "Mercury in Revati Nakshatra suggests a compassionate, spiritual, and empathetic communication style. You guide through words but may struggle with boundaries.",
+        "Venus": "Venus in Revati Nakshatra suggests a compassionate, artistic, and spiritually inclined approach to love and beauty. You create harmony but may struggle with boundaries.",
+        "Mars": "Mars in Revati Nakshatra suggests a compassionate, spiritual, and empathetic energy. You act with care but may struggle with boundaries.",
+        "Jupiter": "Jupiter in Revati Nakshatra suggests a compassionate, spiritual, and empathetic wisdom. You guide with care but may struggle with boundaries.",
+        "Saturn": "Saturn in Revati Nakshatra suggests a compassionate, spiritual, and empathetic approach to duty. You work with care but may struggle with boundaries.",
+        "Rahu": "Rahu in Revati Nakshatra suggests a compassionate, spiritual, and empathetic desire. You chase ideals but may struggle with boundaries.",
+        "Ketu": "Ketu in Revati Nakshatra suggests a detached, compassionate, and spiritual nature. You seek liberation through empathy but may struggle with boundaries."
+    }
 }
-
 VEDIC_ASPECT_INTERPRETATIONS = {
     "Sun": {
         ("Moon", 7): (
@@ -1582,11 +1796,11 @@ class ChartCalculator:
                     })
 
                 # Nakshatra
-                if nakshatra in NAKSHATRA_INTERPRETATIONS:
+                if nakshatra in NAKSHATRA_PLANET_INTERPRETATIONS:
                     chart_data["interpretations"]["nakshatras"].append({
                         "planet": planet_name,
                         "nakshatra": nakshatra,
-                        "interpretation": NAKSHATRA_INTERPRETATIONS[nakshatra]
+                        "interpretation": NAKSHATRA_PLANET_INTERPRETATIONS[nakshatra][planet_name]
                     })
 
             # Aspect Interpretations
